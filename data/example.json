@@ -1,0 +1,46 @@
+{
+  "decision_object": {
+    "decision_id": "PRO-2026-033",
+    "decision_name": "Consolidate overlapping SaaS",
+    "owning_function": "Supply Chain / Procurement",
+    "decision_owner_role": "Procurement Manager",
+    "trigger_condition": "Two tools, 40% overlap, $90k/yr",
+    "current_state": "Overlap; rising TCO",
+    "required_inputs": [
+      "usage by feature",
+      "vendor pricing",
+      "migration cost"
+    ],
+    "evidence_threshold": "TCO reduction >= 20% with < 5% feature loss",
+    "available_options": [
+      "Keep both",
+      "Consolidate to B",
+      "Consolidate to A",
+      "Build internal"
+    ],
+    "decision_criteria": "Lower TCO, manageable lock-in",
+    "constraints": "Must keep data-export SLA",
+    "risk_level": "low",
+    "delegation_level": "Own",
+    "escalation_conditions": "Vendor B refuses exit clause",
+    "expected_outcome": "One tool, lower TCO",
+    "verification_method": "90-day cost + feature audit",
+    "actual_outcome": "$30k/yr saved",
+    "learning_extracted": "Overlap features are the real usage",
+    "rule_version": "PRO-RULE-002",
+    "last_reviewed": "2026-08-18"
+  },
+  "learning_ledger": {
+    "case": "Two overlapping SaaS tools",
+    "decision": "Consolidate to Vendor B",
+    "assumption": "Overlap features suffice",
+    "action": "Negotiate price match + exit clause",
+    "expected_result": ">= 20% TCO cut",
+    "actual_result": "$30k/yr saved",
+    "variance": "Confirmed overlap-driven usage",
+    "cause": "Only overlap features used",
+    "learning": "Require data-export SLA + exit clause in every SaaS contract",
+    "rule_update": "Require data-export SLA + exit clause in every SaaS contract"
+  },
+  "orientation_required": true
+}

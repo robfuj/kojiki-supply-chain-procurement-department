@@ -1,0 +1,39 @@
+```mermaid
+flowchart TD
+    n0["NEED"]
+    n1["SPECIFICATION"]
+    n2["SUPPLIER UNIVERSE"]
+    n3["QUALIFICATION"]
+    n4["COMPARISON"]
+    n5["RISK"]
+    n6["NEGOTIATION"]
+    n7["SELECTION"]
+    n8["ONBOARDING"]
+    n9["PERFORMANCE"]
+    n10["RENEW  /  CHANGE  /  EXIT"]
+    n0 --> n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 --> n8
+    n8 --> n9
+    n9 --> n10
+    n0 -->|learning| n0
+
+stateDiagram-v2
+    [*] --> NEED-STATED
+    NEED-STATED --> SPEC'D
+    SPEC'D --> SOURCING
+    SOURCING --> QUALIFYING
+    QUALIFYING --> COMPARING
+    COMPARING --> NEGOTIATING
+    NEGOTIATING --> SELECTED
+    SELECTED --> ONBOARDING
+    ONBOARDING --> PERFORMING
+    PERFORMING --> RENEWED
+    RENEWED --> EXITED
+    EXITED --> [*]
+```
