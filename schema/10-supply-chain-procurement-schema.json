@@ -1,5 +1,5 @@
 {
-  "$id": "https://hermes-ios.github.io/10-supply-chain-procurement.json",
+  "$id": "https://robfuj.github.io/10-supply-chain-procurement.json",
   "title": "Supply Chain / Procurement spec",
   "type": "object",
   "required": [

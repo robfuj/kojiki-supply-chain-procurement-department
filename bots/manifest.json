@@ -1,0 +1,106 @@
+{
+  "department": "10-supply-chain-procurement",
+  "orientation_required": true,
+  "research_then_install": true,
+  "sub_function_count": 7,
+  "bots": [
+    {
+      "slug": "strategic-sourcing",
+      "sub_function": "Strategic Sourcing",
+      "titles": [
+        "Chief Procurement Officer",
+        "VP Procurement",
+        "Procurement Director",
+        "Procurement Manager",
+        "Strategic Sourcing Manager",
+        "Buyer",
+        "Vendor Manager",
+        "Supplier Relationship Manager"
+      ]
+    },
+    {
+      "slug": "purchasing",
+      "sub_function": "Purchasing",
+      "titles": [
+        "Chief Procurement Officer",
+        "VP Procurement",
+        "Procurement Director",
+        "Procurement Manager",
+        "Strategic Sourcing Manager",
+        "Buyer",
+        "Vendor Manager",
+        "Supplier Relationship Manager"
+      ]
+    },
+    {
+      "slug": "supplier-management",
+      "sub_function": "Supplier Management",
+      "titles": [
+        "Chief Procurement Officer",
+        "VP Procurement",
+        "Procurement Director",
+        "Procurement Manager",
+        "Strategic Sourcing Manager",
+        "Buyer",
+        "Vendor Manager",
+        "Supplier Relationship Manager"
+      ]
+    },
+    {
+      "slug": "vendor-risk",
+      "sub_function": "Vendor Risk",
+      "titles": [
+        "Chief Procurement Officer",
+        "VP Procurement",
+        "Procurement Director",
+        "Procurement Manager",
+        "Strategic Sourcing Manager",
+        "Buyer",
+        "Vendor Manager",
+        "Supplier Relationship Manager"
+      ]
+    },
+    {
+      "slug": "contract-management",
+      "sub_function": "Contract Management",
+      "titles": [
+        "Chief Procurement Officer",
+        "VP Procurement",
+        "Procurement Director",
+        "Procurement Manager",
+        "Strategic Sourcing Manager",
+        "Buyer",
+        "Vendor Manager",
+        "Supplier Relationship Manager"
+      ]
+    },
+    {
+      "slug": "inventory",
+      "sub_function": "Inventory",
+      "titles": [
+        "Chief Procurement Officer",
+        "VP Procurement",
+        "Procurement Director",
+        "Procurement Manager",
+        "Strategic Sourcing Manager",
+        "Buyer",
+        "Vendor Manager",
+        "Supplier Relationship Manager"
+      ]
+    },
+    {
+      "slug": "supply-chain-planning",
+      "sub_function": "Supply Chain Planning",
+      "titles": [
+        "Chief Procurement Officer",
+        "VP Procurement",
+        "Procurement Director",
+        "Procurement Manager",
+        "Strategic Sourcing Manager",
+        "Buyer",
+        "Vendor Manager",
+        "Supplier Relationship Manager"
+      ]
+    }
+  ]
+}
